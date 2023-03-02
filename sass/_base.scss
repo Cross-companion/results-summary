@@ -1,0 +1,29 @@
+@font-face {
+  font-family: face;
+  src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+*,
+*:link {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  // font-size of 1rem = 10px
+  font-size: 62.5%;
+
+  // MEDIA QUERY
+  @media (min-width: 750px) {
+    font-size: 70%;
+  }
+}
+
+body {
+  font-family: face;
+  box-sizing: border-box;
+  //
+  word-spacing: 2px;
+  font-size: 1.7rem;
+}

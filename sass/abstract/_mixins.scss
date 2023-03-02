@@ -1,0 +1,14 @@
+// SASS MIXINS
+@mixin centerFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin spinnerBorders($col, $colAlt) {
+  border-top: 3px solid $colAlt;
+  border-right: 3px solid $col;
+  border-left: 3px solid $col;
+  border-bottom: 3px solid $colAlt;
+  border-radius: 50%;
+}

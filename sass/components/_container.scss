@@ -1,0 +1,21 @@
+// This is the container form all the main project components
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  min-width: 26rem;
+
+  // Media queries
+  @media (min-width: 795px) {
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  @media (min-width: 850px) {
+    border-radius: 3.2rem;
+    box-shadow: 20px 30px 50px rgba($color: #00bb8fea, $alpha: 0.1);
+  }
+}

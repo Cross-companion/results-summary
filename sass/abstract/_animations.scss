@@ -1,0 +1,30 @@
+// ANIMATIONS
+@keyframes spin-clock-wise {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-anti-clock-wise {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes spin-clock-wise-2 {
+  0% {
+    transform: rotate(-360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

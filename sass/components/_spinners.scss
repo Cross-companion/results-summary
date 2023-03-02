@@ -1,0 +1,33 @@
+// SPINNERS (CAN BE SEEN ON When browser console network is set to slow 3g)
+.spinner {
+  width: 100%;
+  @include centerFlex();
+
+  &--1 {
+    width: 75px;
+    height: 75px;
+    animation: spin-clock-wise 2s linear infinite;
+
+    @include spinnerBorders(#f55, white);
+    @include centerFlex();
+  }
+
+  &--2 {
+    width: 34.5px;
+    height: 34.5px;
+    animation: spin-anti-clock-wise 2s linear infinite;
+
+    @include spinnerBorders(white, #ffb21e);
+    @include centerFlex();
+    // @include spinnerBorders(#1125d6, white)
+  }
+
+  &--3 {
+    width: 17.25px;
+    height: 17.25px;
+    animation: spin-clock-wise-2 2s linear infinite;
+
+    @include spinnerBorders(#00bb8f, white);
+    @include centerFlex();
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "results-summary-component-main",
+  "version": "1.0.0",
+  "description": "Front end mentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}
